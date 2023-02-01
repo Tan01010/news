@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News App</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+
+    <!-- header -->
+    
+
+    <header class="header">
+        <div class="header_container">
+            <div class="logo">
+                <p>News App</p>
+            </div>
+
+            <div class="search_ops">
+                <select class="inp" id="country">
+                    <option value=""disabled selected>Select Country</option>
+                    <option value="in">India</option>
+                    <option value="us">USA</option>
+                    <option value="au">Austrailia</option>
+                </select>
+
+                <select class="inp" id="category">
+                    <option disabled selected>Select Category</option>
+                    <option value="politics">Politics</option>
+                    <option value="business">Buisness</option>
+                    <option value="technology">Technology</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="general">General</option>
+                    <option value="health">Health</option>
+                    <option value="science">Science</option>
+                    <option value="sports">Sports</option>
+                </select>
+
+                <button class="btn" onclick="search()">
+                    Find News
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4d65438a863f40e4a64ff19287537d23 -->
+
+    <!-- news part -->
+
+    <section class="news" id="news">
+        <!-- <div class="news_card">
+
+            <div class="news_img">
+            <img src="./sun.png" alt="">
+            </div>
+
+            <div class="news_details">
+                <h1 class="title">New Sunglasses in Town!</h1>
+                <p class="author"> - Lalit Kumar</p>
+                <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aliquam repellat optio tempore expedita facilis enim maxime debitis ut tempora aut odit id, eos corporis, alias voluptates.</p>
+                <button class="btn">Read Full Article</button>
+            </div>
+
+        </div>
+        <div class="news_card">
+
+            <div class="news_img">
+            <img src="./sun.png" alt="" class="card_img">
+            </div>
+
+            <div class="news_details">
+                <h1 class="title">New Sunglasses in Town!</h1>
+                <p class="author"> - Lalit Kumar</p>
+                <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aliquam repellat optio tempore expedita facilis enim maxime debitis ut tempora aut odit id, eos corporis, alias voluptates.</p>
+                <button class="btn">Read Full Article</button>
+            </div>
+
+        </div>
+        <div class="news_card">
+
+            <div class="news_img">
+            <img src="./sun.png" alt="" class="card_img">
+            </div>
+
+            <div class="news_details">
+                <h1>New Sunglasses in Town!</h1>
+                <p class="author"> - Lalit Kumar</p>
+                <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aliquam repellat optio tempore expedita facilis enim maxime debitis ut tempora aut odit id, eos corporis, alias voluptates.</p>
+                <button class="btn">Read Full Article</button>
+            </div>
+
+        </div> -->
+    </section>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
